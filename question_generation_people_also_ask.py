@@ -3,9 +3,12 @@
 # python -m spacy download en_core_web_lg
 
 from tqdm import tqdm
+import people_also_ask as paa
 import json
+from scipy import spatial
 import pandas as pd
 import time
+import spacy
 
 nlp = spacy.load('en_core_web_lg')
 emotion_vector = nlp('emotion').vector
@@ -35,7 +38,7 @@ for k, v in new_dataset.items():
 test_df = pd.DataFrame(test_dataset.items(), columns=['description', 'context'])
 test_df.description = test_df.description.str.lower()
 test_df.context = test_df.context.str.lower()
-
+emotion_store = []
 for idx, row in test_df.iterrows():
     words = row['description'].split(',')
     words = [w.lstrip() for w in words ]
