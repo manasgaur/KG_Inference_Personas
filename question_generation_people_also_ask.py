@@ -64,10 +64,13 @@ for tags in emotion_store:
         tag_string = 'positive, joy, comedy'
     
     # this is where the error will be !!! 
-    get_questions = paa.get_related_questions(tag_string, 5); more_questions=get_questions
-    for question in get_questions:
-        answer_tab = paa.get_answer(question)
-        more_questions.extend(answer_tab['related_questions'])
-    emotion_context_store.append({'tags': tag_string, 
+    try:
+        get_questions = paa.get_related_questions(tag_string, 5); more_questions=get_questions
+        for question in get_questions:
+            answer_tab = paa.get_answer(question)
+            more_questions.extend(answer_tab['related_questions'])
+        emotion_context_store.append({'tags': tag_string, 
                                     'questions':more_questions})
-    time.sleep(5)
+    except: # you can add the Google Error that is shown on your screen
+        time.sleep(10)
+        continue
