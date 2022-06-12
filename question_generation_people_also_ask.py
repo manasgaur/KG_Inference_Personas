@@ -11,7 +11,7 @@ import time
 import spacy
 
 nlp = spacy.load('en_core_web_lg')
-emotion_vector = nlp('emotion').vector
+emotion_vector = nlp('emotion')
 
 def read_sentences_VDIL():
     with open('sentences.json', encoding='utf-8') as lst:
@@ -42,7 +42,7 @@ emotion_store = []
 for idx, row in test_df.iterrows():
     words = row['description'].split(',')
     words = [w.lstrip() for w in words ]
-    selected_idx = list(set([idx for w in words if (similarity(nlp(w).vector, emotion_vector))>0.45]))
+    selected_idx = list(set([idx for w in words if (nlp(w).similarity(emotion_vector)>0.45)]))
     if len(selected_idx) == 0:
         continue
     emotion_store.append({'tags': list(test_df.iloc[selected_idx]['description'].values)})
@@ -65,12 +65,14 @@ for tags in emotion_store:
     
     # this is where the error will be !!! 
     try:
-        get_questions = paa.get_related_questions(tag_string, 5); more_questions=get_questions
+        get_questions = paa.get_related_questions(tag_string, 5)
+        more_questions=get_questions
         for question in get_questions:
-            answer_tab = paa.get_answer(question)
-            more_questions.extend(answer_tab['related_questions'])
+            answer_tab = paa.get_answer(question)['related_questions']
+            more_questions += answer_tab
         emotion_context_store.append({'tags': tag_string, 
                                     'questions':more_questions})
     except: # you can add the Google Error that is shown on your screen
         time.sleep(10)
         continue
+    print (emotion_context_store)
