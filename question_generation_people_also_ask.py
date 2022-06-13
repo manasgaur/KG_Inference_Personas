@@ -48,6 +48,7 @@ for idx, row in test_df.iterrows():
     emotion_store.append({'tags': list(test_df.iloc[selected_idx]['description'].values)})
 
 emotion_context_store=[]
+tag_strings = []
 for tags in emotion_store:
     tag_string = tags['tags'][0]
     if 'movie' in tag_string:
@@ -62,6 +63,10 @@ for tags in emotion_store:
         tag_string = 'positive, joy, excitement'
     if 'humor' in tag_string:
         tag_string = 'positive, joy, comedy'
+
+    tag_strings.append(tag_string)
+
+    '''
     
     # this is where the error will be !!! 
     try:
@@ -75,4 +80,15 @@ for tags in emotion_store:
     except: # you can add the Google Error that is shown on your screen
         time.sleep(10)
         continue
+    
+    get_questions = paa.get_related_questions(tag_string, 5)
+    more_questions=get_questions
+    for question in get_questions:
+        time.sleep(10)
+        answer_tab = paa.get_answer(question)['related_questions']
+        more_questions += answer_tab
+    emotion_context_store.append({'tags': tag_string,
+                                  'questions':more_questions})
     print (emotion_context_store)
+    '''
+print (tag_strings)
