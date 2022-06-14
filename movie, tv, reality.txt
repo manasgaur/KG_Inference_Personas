@@ -1,58 +1,159 @@
-What is Confession camera?
-How do they film confessionals Real Housewives?
-What does OTF mean TV?
-How do interviews on reality TV shows work?
-What are the two kinds of reality TV?
-What is it called in reality TV when they talk to the camera?
-How do confessionals work on TV?
-How do they film confessionals Real Housewives?
-How do they shoot reality TV shows?
-What kind of person goes on reality TV?
-How does filming for Real Housewives work?
-How long does it take to film The Real Housewives?
-What is a confessional cam?
-How do reality shows film in restaurants?
-What is an OTF in television?
-What's the difference between reality TV and documentary?
-How do you answer tell me about yourself in reality TV?
-How do interviews on reality TV shows work?
-How do talking heads work in reality TV?
-How do I prepare for a reality TV show interview?
-Do the participants in a reality show get paid?
-How do reality TV shows work?
-What are the two types of TV shows?
-How many subgenres of reality TV are there?
-What are the categories of reality?
-What are the elements of reality TV?
-How do talking heads work in reality TV?
-What is Confession camera?
-What does OTF mean TV?
-How does reality TV filming work?
-What is the concept of reality TV?
-What is defined as reality TV?
-How are reality TV shows made?
-What are the characteristics of reality TV?
-What are the two kinds of reality TV?
-What are the elements of reality TV?
-What is defined as reality TV?
-What is real about reality TV?
-What are the characteristics of reality TV?
-Why do we watch reality TV?
-What is considered reality TV?
-What is a reality TV show examples?
-What makes reality TV real?
-What are the two kinds of reality TV?
-How scripted are reality TV shows?
-How do they film talking heads in reality shows?
-What are the characteristics of a successful reality TV show?
-What is the purpose of reality TV?
-What is real about reality TV?
-What are the benefits of reality TV?
-What are the two types of TV shows?
-How many subgenres of reality TV are there?
-What are the categories of reality?
-What are the elements of reality TV?
-What is the concept of reality TV?
-What do reality TV shows have in common?
-How are reality TV shows made?
-What are the categories of reality?
+[
+"What is Confession camera?"
+],
+[
+"How do they film confessionals Real Housewives?"
+],
+[
+"What does OTF mean TV?"
+],
+[
+"How do interviews on reality TV shows work?"
+],
+[
+"What are the two kinds of reality TV?"
+],
+[
+"What is it called in reality TV when they talk to the camera?"
+],
+[
+"How do confessionals work on TV?"
+],
+[
+"How do they film confessionals Real Housewives?"
+],
+[
+"How do they shoot reality TV shows?"
+],
+[
+"What kind of person goes on reality TV?"
+],
+[
+"How does filming for Real Housewives work?"
+],
+[
+"How long does it take to film The Real Housewives?"
+],
+[
+"What is a confessional cam?"
+],
+[
+"How do reality shows film in restaurants?"
+],
+[
+"What is an OTF in television?"
+],
+[
+"What's the difference between reality TV and documentary?"
+],
+[
+"How do you answer tell me about yourself in reality TV?"
+],
+[
+"How do interviews on reality TV shows work?"
+],
+[
+"How do talking heads work in reality TV?"
+],
+[
+"How do I prepare for a reality TV show interview?"
+],
+[
+"Do the participants in a reality show get paid?"
+],
+[
+"How do reality TV shows work?"
+],
+[
+"What are the two types of TV shows?"
+],
+[
+"How many subgenres of reality TV are there?"
+]
+[
+"What are the categories of reality?"
+],
+[
+"What are the elements of reality TV?"
+],
+[
+"How do talking heads work in reality TV?"
+],
+[
+"How does reality TV filming work?"
+],
+[
+"What is the concept of reality TV?"
+],
+[
+"What is defined as reality TV?"
+],
+[
+"How are reality TV shows made?"
+],
+[
+"What are the characteristics of reality TV?"
+],
+[
+"What are the two kinds of reality TV?"
+],
+[
+"What are the elements of reality TV?"
+],
+[
+"What is defined as reality TV?"
+],
+[
+"What is real about reality TV?"
+],
+[
+"Why do we watch reality TV?"
+],
+[
+"What is a reality TV show examples?"
+],
+[
+"What makes reality TV real?"
+],
+[
+"What are the two kinds of reality TV?"
+],
+[
+"How scripted are reality TV shows?"
+],
+[
+"How do they film talking heads in reality shows?"
+],
+[
+"What are the characteristics of a successful reality TV show?"
+],
+[
+"What is the purpose of reality TV?"
+],
+[
+"What are the benefits of reality TV?"
+],
+[
+"What are the two types of TV shows?"
+]
+[
+"How many subgenres of reality TV are there?"
+],
+[
+"What are the categories of reality?"
+],
+[
+"What are the elements of reality TV?"
+],
+[
+"What is the concept of reality TV?"
+],
+[
+"What do reality TV shows have in common?"
+],
+[
+"How are reality TV shows made?"
+],
+[
+"What are the categories of reality?"
+]
