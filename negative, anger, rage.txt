@@ -1,27 +1,81 @@
-Is rage a negative emotion?
-What type of emotion is rage?
-What mental illness is associated with anger?
-What are 3 healthy ways to express anger?
-What are the 3 types of anger?
-What are 3 positive ways to express anger?
-Is rage a positive or negative?
-What type of emotion is rage?
-What are the top 10 negative emotions?
-Why is anger a negative emotion?
-Is rage an emotion?
-What type of emotion is anger?
-Is rage a secondary emotion?
-Is rage a complex emotion?
+[
+"Is rage a negative emotion?"
+],
+[
+"What type of emotion is rage?"
+],
+[
+"What mental illness is associated with anger?"
+],
+[
+"What are 3 healthy ways to express anger?"
+],
+[
+"What are the 3 types of anger?"
+],
+[
+"What are 3 positive ways to express anger?"
+],
+[
+"Is rage a positive or negative?"
+],
+[
+"What type of emotion is rage?"
+],
+[
+"What are the top 10 negative emotions?"
+],
+[
+"Why is anger a negative emotion?"
+],
+[
+"Is rage an emotion?"
+],
+[
+"What type of emotion is anger?"
+],
+[
+"Is rage a secondary emotion?"
+],
+[
+"Is rage a complex emotion?"
+],
+[
 What Mental Illness Causes anger?
-What mental illness causes anger and mood swings?
-What are the types of anger disorders?
-What are three healthy ways to express anger?
-What are 5 steps in learning to express anger in healthy ways?
-What are 3 anger triggers?
-What are 3 positive ways to express anger?
-What are the levels of anger?
-What are the four anger styles?
-What are 3 healthy ways to express anger?
-How do you use anger in a positive way?
-What is a positive response to anger?
-What are ways to express anger?
+],
+[
+"What mental illness causes anger and mood swings?"
+],
+[
+"What are the types of anger disorders?"
+],
+[
+"What are three healthy ways to express anger?"
+],
+[
+"What are 5 steps in learning to express anger in healthy ways?"
+],
+[
+"What are 3 anger triggers?"
+],
+[
+"What are 3 positive ways to express anger?"
+],
+[
+"What are the levels of anger?"
+],
+[
+"What are the four anger styles?"
+],
+[
+"What are 3 healthy ways to express anger?"
+],
+[
+"How do you use anger in a positive way?"
+],
+[
+"What is a positive response to anger?"
+]
+[
+"What are ways to express anger?"
+]
