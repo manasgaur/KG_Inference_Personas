@@ -1,0 +1,3 @@
+A version (suggestive):
+
+In this work, we propose a novel joint NLU approach that can explain slot classification decision. This distinctive slot type specific feature learning undergoes additional constrained supervision using a set of binary classifiers. This ensures appropriate attention weights are learned per slot type and explains slot classification in utterances. Moreover, along with being explainable, our method consistently outperformed baselines in terms of accuracy. In the current research, we provide an analysis of explainability obtained from our joint NLU method on two popular benchmark datasets. 
