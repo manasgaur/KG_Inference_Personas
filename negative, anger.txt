@@ -1,29 +1,66 @@
-Why is anger a negative emotion?
-What type of emotion is anger?
-Is anger a positive or negative emotion?
-How can anger be negative?
-How does anger cause negative emotions?
-Is anger a negative affect?
-How does anger cause negative emotions?
-Is anger a basic negative emotion?
-Is anger a positive or negative emotion?
-What type of emotion is anger?
-What are the emotions of anger?
-Is anger a choice or primary emotion?
-Is anger an emotion or reaction?
-Is anger a basic emotion?
-Is anger a positive emotion?
-Is angry a negative emotion?
-What type of emotion is anger?
-Can anger be used positively How?
-Is angry a negative emotion?
-Is anger negative or positive?
-Can anger be a weakness?
-Why is anger a negative emotion?
-Is anger a negative affect?
-Is anger a positive or negative emotion?
-What emotions does anger cause?
-Is anger positive or negative?
-Is anger a negative?
-How does anger affect us negatively?
-Is anger an affect?
+[
+"Why is anger a negative emotion?"
+],
+[
+"What type of emotion is anger?"
+],
+[
+"Is anger a positive or negative emotion?"
+],
+[
+"How can anger be negative?"
+],
+[
+"How does anger cause negative emotions?"
+],
+[
+"Is anger a negative affect?"
+],
+[
+"How does anger cause negative emotions?"
+],
+[
+"Is anger a basic negative emotion?"
+],
+[
+"Is anger a positive or negative emotion?"
+],
+[
+"What type of emotion is anger?"
+],
+[
+"What are the emotions of anger?"
+],
+[
+"Is anger a choice or primary emotion?"
+],
+[
+"Is anger an emotion or reaction?"
+],
+[
+"Can anger be used positively How?"
+],
+[
+"Is angry a negative emotion?"
+],
+[
+"Is anger negative or positive?"
+],
+[
+"Can anger be a weakness?"
+],
+[
+"Why is anger a negative emotion?"
+],
+[
+"Is anger a negative affect?"
+],
+[
+"Is anger a positive or negative emotion?"
+],
+[
+"What emotions does anger cause?"
+],
+[
+"How does anger affect us negatively?"
+]
