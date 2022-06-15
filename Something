@@ -1,4 +1,1 @@
-A version (suggestive):
-
-
-This work proposes a novel joint NLU approach that can explain slot classification decisions. This distinctive slot type-specific feature learning undergoes additional constrained supervision using a set of binary classifiers. This ensures appropriate attention weights are learned per slot type and explains slot classification in utterances. Moreover, along with being explainable, our method consistently outperformed baselines in terms of accuracy. In the current research, we provide an analysis of explainability obtained from our joint NLU method on two popular benchmark datasets. 
+Irrespective of B or I prefix, the slot types captures the entity and its role in the utterance. The slot-type labeling for our method is obtained by initializing vectors of the length of the utterance. Since there are three slot types, as shown in Figure 2, there are three one-hot vectors; (a) Origin slot type, (b) 'Destination' slot type, and (c) Offset. For each utterance, there are three such additional vectors which are fed into binary classifiers to obtain slot-type attention weights and features. 
