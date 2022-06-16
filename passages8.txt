@@ -1,0 +1,24 @@
+ID: 8.1
+Dialogue ID: F37GFU3E8WAI
+wikidata_item: Q5776
+link: https://en.wikipedia.org/wiki/Bethlehem
+
+ID: 8.2
+Dialogue ID: F37GFU3E8WAI
+wikidata_item: Q9259
+link: https://en.wikipedia.org/wiki/World_Heritage_Site
+
+ID: 8.3
+Dialogue ID: F37GFU3E8WAI
+wikidata_item: Q48175
+link: https://en.wikipedia.org/wiki/Holy_Land
+
+ID: 8.4
+Dialogue ID: F37GFU3E8WAI
+wikidata_item: Q302
+link: https://en.wikipedia.org/wiki/Jesus
+
+ID: 8.5
+Dialogue ID: F37GFU3E8WAI
+wikidata_item: Q1131329
+link: https://en.wikipedia.org/wiki/Grotto

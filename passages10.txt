@@ -1,0 +1,25 @@
+ID: 10.1
+Dialogue ID: M1KCCX0D0NYQ
+wikidata_item: Q12271
+link: https://en.wikipedia.org/wiki/Architecture
+
+ID: 10.2
+Dialogue ID: M1KCCX0D0NYQ
+wikidata_item: Q1081138
+link: https://en.wikipedia.org/wiki/Historic_site
+
+ID: 10.3
+Dialogue ID: M1KCCX0D0NYQ
+wikidata_item: Q25
+link: https://en.wikipedia.org/wiki/Wales
+
+ID: 10.4
+Dialogue ID: M1KCCX0D0NYQ
+wikidata_item: Q61509
+link: https://en.wikipedia.org/wiki/Travel
+
+ID: 10.5
+Dialogue ID: M1KCCX0D0NYQ
+wikidata_item: Q309
+link: https://en.wikipedia.org/wiki/History
+

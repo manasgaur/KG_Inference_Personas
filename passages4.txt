@@ -1,0 +1,24 @@
+ID: 4.1
+Dialogue ID: GNQ8CQIQ21XS
+wikidata_item: Q1424605
+link: https://en.wikipedia.org/wiki/Trader_(finance)
+
+ID: 4.2
+Dialogue ID: GNQ8CQIQ21XS
+wikidata_item: Q5468197
+link: https://en.wikipedia.org/wiki/Foreign
+
+ID: 4.3
+Dialogue ID: GNQ8CQIQ21XS
+wikidata_item: Q29568419
+link: https://en.wikipedia.org/wiki/Catholic_(term)
+
+ID: 4.4
+Dialogue ID: GNQ8CQIQ21XS
+wikidata_item: Q29568419
+link: https://en.wikipedia.org/wiki/Catholic_(term)
+
+ID: 4.5
+Dialogue ID: GNQ8CQIQ21XS
+wikidata_item: Q11042
+link: https://en.wikipedia.org/wiki/Culture

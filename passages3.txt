@@ -1,0 +1,24 @@
+ID: 3.1
+Dialogue ID: RF9IP04XZHX4
+wikidata_item: 605315
+link: https://en.wikipedia.org/wiki/Church
+
+ID: 3.2
+Dialogue ID: RF9IP04XZHX4
+wikidata_item: Q29568419
+link: https://en.wikipedia.org/wiki/Catholic_(term)
+
+ID: 3.3
+Diaogue ID: RF9IP04XZHX4
+wikidata_item: Q9920
+link: https://en.wikipedia.org/wiki/Haarlem
+
+ID: 3.4
+Dialogue ID: RF9IP04XZHX4
+wikidata_item: Q2977
+link: https://en.wikipedia.org/wiki/Cathedral
+
+ID: 3.5
+Dialogue ID: RF9IP04XZHX4
+wikidata_item: Q750752
+link: https://en.wikipedia.org/wiki/English_Gothic_architecture

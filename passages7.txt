@@ -1,0 +1,24 @@
+ID: 7.1
+Dialogue ID: 6MT345X3J7S0
+wikidata_item: Q4022
+link: https://en.wikipedia.org/wiki/River
+
+ID: 7.2
+Dialogue ID: 6MT345X3J7S0
+wikidata_item: Q12323
+link: https://en.wikipedia.org/wiki/Dam
+
+ID: 7.3
+Dialogue ID: 6MT345X3J7S0
+wikidata_item: Q12014035
+link: https://en.wikipedia.org/wiki/Hiking
+
+ID: 7.4
+Dialogue ID: 6MT345X3J7S0
+wikidata_item: Q408
+link: https://en.wikipedia.org/wiki/Australia
+
+ID: 7.5
+Dialgoue ID: 6MT345X3J7S0
+wikidata_item: Q36074
+link: https://en.wikipedia.org/wiki/Queensland

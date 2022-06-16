@@ -1,0 +1,24 @@
+ID: 6.1
+Dialogue ID: GO4SI9GGYU6G
+wikidata_item: Q956
+link: https://en.wikipedia.org/wiki/Beijing
+
+ID: 6.2
+Dialogue ID: GO4SI9GGYU6G
+wikidata_item: Q8733
+link: https://en.wikipedia.org/wiki/Qing_dynasty
+
+ID: 6.3
+Dialogue ID: GO4SI9GGYU6G
+wikidata_item: Q15947807
+link: https://en.wikipedia.org/wiki/Researcher_(disambiguation)
+
+ID: 6.4
+Dialogue ID: GO4SI9GGYU6G
+wikidata_item: Q45782
+link: https://en.wikipedia.org/wiki/Aquarium
+
+ID: 6.5
+Dialogue ID: GO4SI9GGYU6G
+wikidata_item: Q431
+link: https://en.wikipedia.org/wiki/Zoology
