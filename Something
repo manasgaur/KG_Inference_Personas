@@ -1,4 +1,15 @@
-A version (suggestive):
+Summary: The paper introduces a Relation Transition aware Knowledge-Grounded Dialogue Generation (RT-KGD) model with a purpose to exploit the relations between the utterances in a dialogue for next response generation. The authors describe their approach as a composition of utterance-entity-type graph and Multi-turn Heterogeneous Knowledge Transition path (MHKT-path) to understand the conceptual flow in the dialogue. RT-KGD then uses BART transformer and recurrent neural network to estimate the next response. The representation for MHKT-path is created using graph transformer leveraging TransR knowledge graph embedding model. 
 
+Strengths:
+1. Authors described an interesting problem in dialog generation where current agents fails to exploit the relations between the utterances. This result in irrelevant sentence generation.
+2. Constructing a knowledge-grounded path (shown in Figure 1b) is interesting in defining a stricter context. In my opinion, such a strategy is well-suited for close-domain and goal-oriented dialogues. 
+3. The classification of the links in MHKT-path seems interesting. I wonder whether they have been used in RT-KGD method. 
+4. The experimentation design is extensive and affirms the claims made in the paper. 
 
-This work proposes a novel joint NLU approach that can explain slot classification decisions. This distinctive slot type-specific feature learning undergoes additional constrained supervision using a set of binary classifiers. This ensures appropriate attention weights are learned per slot type and explains slot classification in utterances. Moreover, along with being explainable, our method consistently outperformed baselines in terms of accuracy. In the current research, we provide an analysis of explainability obtained from our joint NLU method on two popular benchmark datasets. 
+Weakness:
+1. One of my bigger concern is with respect to the integration of heterogeneous embedding spaces in RT-KGD model. Prior studies (e.g KI-BERT) have stated about the loss of context when a knowledge graph embedding model is used with a off-the-shelf pre-trained/fine-tuned word- or sentence-based language model. I don't see the authors describing about the challenges associated with such an integration. 
+2. I am unable to comprehend the contribution of multi-label triplet classification. How does it contribute to response generation? What I can understand that multi-label triplet classification classifies the predicted triplet into one of the class - Occupation, Type, Representation Work, or Cast. If this true, then how many different classes does the KGD has in not specified in the paper.  It also incur to me that RT-KGD model has to be separately trained on different domains which kind of raises the concerns in task transferability. 
+
+Apart from these noted weaknesses, I see no discussion on limitation or future directions, which I believe to be important. Discussion on cases where RT-KGD does spectacularly well and where it performs worse than any of the baseline. One cannot make sense of these from quantitative scores as they are averages. 
+
+In my opinion a proof read of the paper is required. For instance, "It is Kate Winslet in Figure 1 and not Cate Blancett". The sentence before Equation 9 says "dialogue level and turn level", which I think should be "dialogue level and relation level". 
