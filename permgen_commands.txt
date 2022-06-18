@@ -1,0 +1,15 @@
+git clone https://github.com/wyu97/permgen.git
+cd permgen
+conda create -n permgen python=3.6
+conda activate permgen
+cp -r ../dailymail dataset/
+pip install --user transformers==3.3.1 #use sudo -H or pip install --user if pip doesn't work
+pip install --user torch==1.7.0
+pip install --user nltk
+pip install --user psutil
+pip install --user gitpython
+pip install --user rouge_score
+python3 dataset/preprocessing.py --dailymail True
+cd scripts
+bash train_dailymail.sh
+bash test_dailymail.sh
