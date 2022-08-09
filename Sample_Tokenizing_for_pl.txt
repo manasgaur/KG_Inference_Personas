@@ -1,0 +1,41 @@
+class Tokenizer:
+    def __init__(self):
+        self.tokenizer = tokenizer
+        self.text_max_token_len = 512
+        self.summary_max_token_len = 256
+        self.persona=""
+        
+    def __call__(self, dialogue=None, summary=None, personas=None):
+        
+        if dialogue and personas:
+                encoding = PERSONA_TOKENIZER(dialogue, max_length=self.text_max_token_len, padding='max_length', truncation=True, return_tensors="pt")
+                encoding = {k: v for k, v in encoding.items()}
+                outputs =  PERSONA_SELECTOR(**encoding)
+                sigmoid = torch.nn.Sigmoid()
+                probs = sigmoid(outputs.logits.squeeze()) 
+                m = Categorical(probs) # you can add more filtering here
+                action = m.sample()
+                personas = personas.strip('][').split(', ')
+                self.persona = personas[action.item()]
+                dialogue = dialogue +" "+ "<persona> "+ self.persona.replace('\'', '')
+        
+        if dialogue:
+            dialogue_encoding = self.tokenizer(dialogue,
+                                               max_length = self.text_max_token_len,
+                                               padding = "max_length",
+                                               truncation = True,
+                                               return_attention_mask = True,
+                                               add_special_tokens = True,
+                                               return_tensors = "pt")
+            return dialogue_encoding
+        
+        if summary:
+            summary_encoding = self.tokenizer(summary,
+                                              max_length = self.summary_max_token_len,
+                                              padding = "max_length",
+                                              truncation = True,
+                                              return_attention_mask = True,
+                                              add_special_tokens = True,
+                                              return_tensors = "pt")
+            
+            return summary_encoding
